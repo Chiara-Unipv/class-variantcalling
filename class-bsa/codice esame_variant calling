@@ -187,6 +187,7 @@ SnpSift extractFields \
 filtered_variants.vcf \
 "CHROM" "POS" "ID" "GEN[disease].GT" "GEN[normal].GT" ANN[*].GENE ANN[*].EFFECT
 
+
 SnpSift extractFields \
 -s "," -e "." \
 filtered_variants.vcf \
